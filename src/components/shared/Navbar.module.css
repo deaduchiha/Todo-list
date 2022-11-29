@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  padding: 0 40px;
+  background: #edf2f4;
+}
+.active a {
+  background: #2b2d42;
+  color: #edf2f4 !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.task a {
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  color: #2b2d42;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.task a:hover {
+  background: #2b2d42;
+  color: #edf2f4 !important;
+}
